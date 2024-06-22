@@ -62,10 +62,10 @@ If you want just to download pretrained models here are links:
 
 * Run `train.py` script
   ```shell
-  python3 main.py
+  python3 train.py --cache_images --model_size n --image_size 608 --yaml_path extracted_dataset --batch_size 16 --epochs 300
   ```
- 
-  @w.i.p
+
+  When training is done you can extract both ONNX and Pytorch weights from `run` directory which would be generated during training process.
 
 ## References
 * Developers of YOLOv8 - https://github.com/ultralytics/ultralytics. If you are aware of some original papers for YOLOv8 architecture, please contact me to mention it in this README.

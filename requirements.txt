@@ -1,1 +1,3 @@
 pyyaml==6.0.1
+ultralytics==8.2.35
+ultralytics-thop==2.0.0
