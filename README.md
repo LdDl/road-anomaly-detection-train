@@ -23,6 +23,12 @@ If you want just to download pretrained models here are links:
 - YOLOv8 extra large - @todo
 
 ## Usage
+* Clone the repository and navigate to root folder:
+  ```shell
+  git clone https://github.com/LdDl/road-anomaly-detection-train.git
+  cd road-anomaly-detection-train
+  ```
+
 * Install dependencies
   ```shell
   pip3 install -r requirements.txt
