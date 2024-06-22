@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [About](#about)
+- [Pretrained models](#pretrained-models)
 - [Usage](#usage)
 - [References](#references)
 
@@ -11,6 +12,15 @@ It is just bunch of scripts to train road accidents detector for my pet-project 
 There are two scripts in this repository:
 - `download.py` to download dataset of interest;
 - `train.py` to run training process; (w.i.p)
+
+## Pretrained models
+
+If you want just to download pretrained models here are links:
+- YOLOv8 nano - @todo
+- YOLOv8 small - @todo
+- YOLOv8 medium - @todo
+- YOLOv8 large - @todo
+- YOLOv8 extra large - @todo
 
 ## Usage
 * Install dependencies
@@ -23,7 +33,13 @@ There are two scripts in this repository:
   https://universe.roboflow.com/accident-detection-ffdrf/accident-detection-8dvh5
   ```
 
-* Get dataset ID and unique key to download it.
+  Click `Download` button:
+
+  <img src="docs/screenshot_2.png" width="320">
+
+* Navigate to `Terminal` tab and get dataset ID and unique key to download it.
+
+  <img src="docs/screenshot_1.png" width="480">
 
 * Run `download.py` script
   ```shell
