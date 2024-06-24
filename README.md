@@ -16,11 +16,110 @@ There are two scripts in this repository:
 ## Pretrained models
 
 If you want just to download pretrained models here are links:
-- YOLOv8 nano - @todo
-- YOLOv8 small - @todo
-- YOLOv8 medium - @todo
-- YOLOv8 large - @todo
-- YOLOv8 extra large - @todo
+- YOLOv8 nano - @todo link
+  Parameters:
+  - Image size: 608x608
+  - Batch size: 16
+  - Epochs: 300
+  - Cache images: yes
+
+  <details>
+    <summary>Training results (images, CSV)</summary>
+    
+    Training and validation batches examples are [here](runs/detect/nano/)
+
+    | <img src="runs/detect/nano/results.png" width="640"> | 
+    |:--:| 
+    | Results . Corresponding CSV is [here](runs/detect/nano/results.csv) |
+
+    | <img src="runs/detect/nano/confusion_matrix.png" width="640"> | 
+    |:--:| 
+    | *Confusion matrix* |
+
+    | <img src="runs/detect/nano/confusion_matrix_normalized.png" width="640"> | 
+    |:--:| 
+    | *Normalized confusion matrix* |
+  
+    | <img src="runs/detect/nano/F1_curve.png" width="640"> | 
+    |:--:| 
+    | *F1 Curve* |
+
+    | <img src="runs/detect/nano/P_curve.png" width="640"> | 
+    |:--:| 
+    | *P Curve* |
+
+    | <img src="runs/detect/nano/R_curve.png" width="640"> | 
+    |:--:| 
+    | *R Curve* |
+
+    | <img src="runs/detect/nano/PR_curve.png" width="640"> | 
+    |:--:| 
+    | *PR Curve* |
+
+    | <img src="runs/detect/nano/labels.jpg" width="640"> | 
+    |:--:| 
+    | *Labels* |
+
+    | <img src="runs/detect/nano/labels_correlogram.jpg" width="640"> | 
+    |:--:| 
+    | *Labels correlogram* |
+
+  </details>
+
+- YOLOv8 nano - @todo link
+
+  Parameters:
+  - Image size: 608x608
+  - Batch size: 16
+  - Epochs: 300
+  - Cache images: yes
+
+  <details>
+    <summary>Training results (images, CSV)</summary>
+    
+    Training and validation batches examples are [here](runs/detect/small/)
+
+    | <img src="runs/detect/small/results.png" width="640"> | 
+    |:--:| 
+    | Results . Corresponding CSV is [here](runs/detect/small/results.csv) |
+
+    | <img src="runs/detect/small/confusion_matrix.png" width="640"> | 
+    |:--:| 
+    | *Confusion matrix* |
+
+    | <img src="runs/detect/small/confusion_matrix_normalized.png" width="640"> | 
+    |:--:| 
+    | *Normalized confusion matrix* |
+  
+    | <img src="runs/detect/small/F1_curve.png" width="640"> | 
+    |:--:| 
+    | *F1 Curve* |
+
+    | <img src="runs/detect/small/P_curve.png" width="640"> | 
+    |:--:| 
+    | *P Curve* |
+
+    | <img src="runs/detect/small/R_curve.png" width="640"> | 
+    |:--:| 
+    | *R Curve* |
+
+    | <img src="runs/detect/small/PR_curve.png" width="640"> | 
+    |:--:| 
+    | *PR Curve* |
+
+    | <img src="runs/detect/small/labels.jpg" width="640"> | 
+    |:--:| 
+    | *Labels* |
+
+    | <img src="runs/detect/small/labels_correlogram.jpg" width="640"> | 
+    |:--:| 
+    | *Labels correlogram* |
+
+  </details>
+
+- YOLOv8 medium - @todo train
+- YOLOv8 large - @todo train
+- YOLOv8 extra large - @todo train
 
 ## Usage
 * Clone the repository and navigate to root folder:
