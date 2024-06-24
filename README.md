@@ -16,7 +16,7 @@ There are two scripts in this repository:
 ## Pretrained models
 
 If you want just to download pretrained models here are links:
-- YOLOv8 nano - @todo link
+- YOLOv8 nano - [Best weights (ONNX)](https://github.com/LdDl/road-anomaly-detection-train/releases/download/v0.1.0/best_nano.onnx), [Best weights (Pytorch)](https://github.com/LdDl/road-anomaly-detection-train/releases/download/v0.1.0/best_nano.pt) [Last weights (Pytorch)](https://github.com/LdDl/road-anomaly-detection-train/releases/download/v0.1.0/last_nano.pt)
   Parameters:
   - Image size: 608x608
   - Batch size: 16
@@ -66,7 +66,7 @@ If you want just to download pretrained models here are links:
 
   </details>
 
-- YOLOv8 nano - @todo link
+- YOLOv8 nano - [Best weights (ONNX)](https://github.com/LdDl/road-anomaly-detection-train/releases/download/v0.1.0/best_small.onnx), [Best weights (Pytorch)](https://github.com/LdDl/road-anomaly-detection-train/releases/download/v0.1.0/best_small.pt) [Last weights (Pytorch)](https://github.com/LdDl/road-anomaly-detection-train/releases/download/v0.1.0/last_small.pt)
 
   Parameters:
   - Image size: 608x608
