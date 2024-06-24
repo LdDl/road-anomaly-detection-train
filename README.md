@@ -1,4 +1,4 @@
-# Training objected detector for road accidents detection
+# Training object detector for road accidents detection
 
 ## Table of Contents
 - [About](#about)
