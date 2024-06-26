@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: yolov8s.yaml
+model: yolov8x.yaml
 data: extracted_dataset/data.yaml
 epochs: 300
 time: null
@@ -13,7 +13,7 @@ cache: true
 device: null
 workers: 8
 project: null
-name: train2
+name: train3
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -103,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/detect/train2
+save_dir: runs/detect/train3
